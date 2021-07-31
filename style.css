@@ -59,7 +59,7 @@ body {
 .dateline {
   display: flex;
   justify-content: center;
-  position: relative:
+  position: relative;
 }
 .dateline ::before{content: "";
   display: block;
@@ -164,3 +164,9 @@ button {
     top: 0px;
   }
 }
+
+
+
+
+
+
