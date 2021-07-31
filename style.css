@@ -59,7 +59,27 @@ body {
 .dateline {
   display: flex;
   justify-content: center;
-  border-top-style: dotted;
+  position: relative:
+}
+.dateline ::before{content: "";
+  display: block;
+  width: 219px;
+  height: 2px;
+  position: absolute;
+  background: #000;
+  left: 0;
+  top: 50%;
+
+}
+.dateline ::after{content: "";
+  display: block;
+  width: 219px;
+  height: 2px;
+  position: absolute;
+  background: #000;
+  right: 0;
+  top: 50%;
+
 }
 
 .transactionbox {
